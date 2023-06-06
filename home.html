@@ -1,0 +1,880 @@
+<!-- DOWNLOAD ALL THE MEDIA AND ADD IT TO THE FOLDER CONTAINING HTML FILE BEFORE RUNNING THE FILE -->
+<!-- ENSURE THE INCLUSION OF SCRIPT FROM FONTAWESOME WITHIN THE HEADER  -->
+
+
+<!-- BBC WEBSITE HEADER -->
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> BBC Page </title>
+<script src="https://kit.fontawesome.com/3cf3de96b3.js" crossorigin="anonymous"></script>
+
+<!-- USE OF INTERNAL CSS TO ADD STYLES -->
+<style type="text/css">
+    body {
+        background-image: url('bg2.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        margin: 0em;
+        margin-right: -1em;
+        padding: 0em;
+    }
+
+    #icon {
+        padding-left: 2.5em;
+    }
+
+    #tab1 {
+        background-color: black;
+        position:relative;
+        width: 100%;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #tab2 {
+        margin-top: 0em;
+        padding: 3em 2em 2em 2em;
+        background-color: rgba(0, 0, 0, 0.5);
+        position:relative;
+        width: 100%;
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #tab3 {
+        padding-bottom: 2em;
+        padding-left:6.4em;
+        padding-right: 6.1em;
+        margin-top: -2em;
+        background-color: rgba(0, 0, 0, 0.5);
+        position:relative;
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #tab4 {
+        padding-bottom: 2em;
+        padding-left: 6.4em;
+        padding-right: 6.1em;
+        margin-top: 8em;
+        position:relative;
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #tab5 {
+        padding-bottom: 2em;
+        padding-left: 6.4em;
+        padding-right: 6.1em;
+        margin-top: 8em;
+        position:relative;
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #tab6 {
+        padding-bottom: 2em;
+        padding-left: 6.4em;
+        padding-right: 6.1em;
+        margin-top: 8em;
+        position:relative;
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #tab7 {
+        margin-top: 7em;
+        padding: 0em 2em;
+        background-color: rgba(210, 105, 30, 0.5);
+        position:relative;
+        width: 100%;
+        color: black;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #tab7 ul {
+        margin-left: -10em;
+    }
+
+    #tab7 ul li {
+        display: inline;
+    }
+
+    #tab8 {
+        padding-bottom: 2em;
+        padding-left: 6.4em;
+        padding-right: 6.1em;
+        margin-top: 8em;
+        position:relative;
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #tab9 {
+        margin-top: 5em;
+        padding: 3em 2em 2em 4.8em;
+        background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),url('bg1.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        position:relative;
+        width: 100%;
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #tab10 {
+        padding-bottom: 2em;
+        padding-left: 6.4em;
+        padding-right: 6.1em;
+        margin-top: 8em;
+        position:relative;
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #tab11 {
+        margin-top: 5em;
+        padding: 3em 2em 2em 4.8em;
+        background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),url('peakpx.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        position:relative;
+        width: 100%;
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #tab12 {
+        padding: 2em;
+        margin: auto;
+        margin-top: 8em;
+        background-color: rgba(0, 0, 0, 0.5);
+        position:relative;
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #tab12 a {
+        color: white;
+        text-decoration: none;
+    }
+
+    #tab12 a:hover {
+        border-bottom: 0.2em solid crimson;
+    }
+
+    #tab13 {
+        background-color: rgba(0, 0, 0, 0.5);
+        position:relative;
+        width: 100%;
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #tab14 {
+        padding: 1em 17em;
+        width: 100%;
+        margin-top: 8em;
+        background-color: rgb(198, 77, 34);
+        position:relative;
+        color: black;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #tab14 a {
+        color: wheat;
+        text-decoration: none;
+        font-size: 0.8em;
+        padding-left: 1em;
+    }
+
+    #tab14 a:hover {
+        text-decoration: underline;
+        text-decoration-color: wheat;
+    }
+
+    #menu {
+        padding: 0.4em;
+        float: right;
+    }
+
+    #sign-in button {
+        background-color: black;
+        color: #f2f2f2;
+        float: right;
+        padding: 0.3em 0.7em;
+        margin-right: 0.9em;
+        font-size: 1.3em;
+        border: none;
+        cursor: pointer;
+    }
+
+    #menu a {
+        padding: 0.85em;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        position: relative;
+    }
+
+    #menu a::after {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        right: 0;
+        height: 0.1em;
+        width: 0%;
+        transition: 500ms ease-in-out;
+    }
+
+    #menu a:hover::after {
+        width: 100%;
+        left: 0;
+    }
+
+    #sign-in::after {
+        background: white;
+    }
+
+    #home::after {
+        background: chocolate;
+    }
+
+    #news::after {
+        background: white;
+    }
+
+    #sport::after {
+        background: chocolate;
+    }
+
+    #reel::after {
+        background: white;
+    }
+
+    #worklife::after {
+        background: chocolate;
+    }
+
+    #travel::after {
+        background: white;
+    }
+
+    #future::after {
+        background: chocolate;
+    }
+
+    #culture::after {
+        background: white;
+    }
+
+    #more::after {
+        background: chocolate;
+    }
+
+    #search input[type=text]{
+        width:18em;
+        height:2.5em;
+        border-radius:1.5em;
+        border: none;
+    }
+         
+    #search{
+        float:right;
+        margin-top:1.1em;
+    }
+         
+    #search button{
+        background-color: black;
+        color: #f2f2f2;
+        float: right;
+        padding: 0.35em 0.7em 0.2em 0.7em;
+        margin-right: 1em;
+        font-size: 1.2em;
+        border: none;
+        cursor: pointer;
+        transition: 700ms color;
+    }
+
+    #search button:hover {
+        color: chocolate;
+    }
+
+    #wtr-btn {
+        background-color: black;
+        color: white;
+        width: 6em;
+        height: 2.5em;
+        border-radius: 0.4em;
+        padding: 0.2em 4em 0.2em 2em;
+        margin: -1em 0em 0em 1em;
+        transition: 1000ms background-color;
+    }
+
+    #wtr-btn:hover {
+        background-color: orangered;
+    }
+
+    #reel-btn {
+        color: white;
+        background-color: transparent;
+        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+        width: 11em;
+        height: 2.5em;
+        border: 0.2em solid white;
+        border-radius: 1em;
+        margin-top: 4em;
+        padding: 0.2em 1.8em;
+        transition: 500ms border;
+    }
+
+    #reel-btn:hover {
+        border: 0.2em solid chocolate;
+    }
+
+    #ftr-btn {
+        color: white;
+        background-color: transparent;
+        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+        width: 11em;
+        height: 2.5em;
+        border: 0.2em solid white;
+        border-radius: 1em;
+        margin-top: 4em;
+        padding: 0.2em 1.8em;
+        transition: 500ms border;
+    }
+
+    #ftr-btn:hover {
+        border: 0.2em solid crimson;
+    }
+
+</style>
+</head>
+
+<!-- BBC WEBSITE BODY -->
+<body>
+
+<!-- CREATING MAIN TABLE AND NESTING OTHER TABLES WITHIN IT -->
+<table id="main-tab">
+    <tr>
+
+        <!-- MENU SECTION -->
+        <table id="tab1" class="tabs">
+            <tr>
+                <td>
+                    <img src="bbcicon.png" alt="bbc-icon" id="icon">
+                </td>
+                <td>
+                    <table id="menu">
+                        <td class="sign-in">
+                            <img src="user-16.png" alt="user-icon">
+                            <a href="#sign-in" style="margin-left: -0.7em;" id="sign-in">Sign In</a>
+                        </td>
+                        <td>
+                            <a href="#home" id="home">Home</a>
+                        </td>
+                        <td>
+                            <a href="#news" id="news">News</a>
+                        </td>
+                        <td>
+                            <a href="#sport" id="sport">Sport</a>
+                        </td>
+                        <td>
+                            <a href="#reel" id="reel">Reel</a>
+                        </td>
+                        <td>
+                            <a href="#worklife" id="worklife">Worklife</a>
+                        </td>
+                        <td>
+                            <a href="#travel" id="travel">Travel</a>
+                        </td>
+                        <td>
+                            <a href="#future" id="future">Future</a>
+                        </td>
+                        <td>
+                            <a href="#culture" id="culture">Culture</a>
+                        </td>
+                        <td>
+                            <a href="#more" id="more">...</a>
+                        </td>
+                    </table>
+                </td>
+                <td id="search">
+                    <input type="text" placeholder="Search BBC" name="search">
+                    <button>
+                        <i class="fa fa-search" style="font-size: 1em;"></i>
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </tr>
+
+    <!-- WELCOME SECTION -->
+    <tr>
+        <table id="tab2">
+            <tr>
+                <td>
+                    <h2 style="padding-left: 2.8em;">Welcome to BBC.com</h2>
+                </td>
+                <td style="color: burlywood;font-size: 1.5em;text-align:right;padding-right: 3em;">
+                    Saturday, 1 October
+                </td>
+            </tr>
+        </table>
+    </tr>
+
+    <tr>
+        <table id="tab3">
+            <tr>
+                <td style="text-align: right;">
+                    <img src="t1p1.png" alt="header-pic" width="620em" height="360em">
+                </td>
+                <td style="text-align:right;padding-right: 0.3em;">
+                    <img src="t1p2.png" alt="header-pic" width="330em" height="180em">
+                    <img src="t1p3.png" alt="header-pic" width="330em" height="180em">
+                </td>
+                <td>
+                    <img src="t1p4.png" alt="header-pic" width="330em" height="180em">
+                    <img src="t1p5.png" alt="header-pic" width="330em" height="180em">
+                </td>
+            </tr>
+        </table>
+    </tr>
+
+    <!-- WEATHER SECTION -->
+    <tr>
+        <table id="tab7">
+            <tr>
+                <th style="float: left; font-size: 1.5em;padding: 2.3em 0em 0em 2.8em;">
+                    <b>ISLAMABAD WEATHER</b>
+                    <button id="wtr-btn"><b>EDIT</b></button>
+                </th>
+                <td>
+                    <ul style="list-style: none;">
+                        <li>
+                            <img src="t5p1.png" alt="weather-pic" width="150em" height="110em" style="margin-bottom: -0.5em;">
+                        </li>
+                        <li>
+                            <img src="t5p2.png" alt="weather-pic" width="160em" height="90em">
+                        </li>
+                        <li>
+                            <img src="t5p3.png" alt="weather-pic" width="160em" height="100em" style="margin-bottom: -0.3em;">
+                        </li>
+                        <li>
+                            <img src="t5p4.png" alt="weather-pic" width="165em" height="110em" style="margin-bottom: -0.5em;">
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </tr>
+
+    <!-- ON-AIR SECTION -->
+    <tr>
+        <table id="tab13">
+            <tr>
+                <td style="background-color: chocolate; font-size: 1em;padding: 1em; text-align: right;">
+                    <b>BBC WORLD SERVICE</b> 
+                </td>
+                <td style="background-color: black;padding-left: 1em;">
+                    🔊 ON AIR: The Newsroom
+                </td>
+            </tr>
+        </table>
+    </tr>
+
+    <!-- NEWS SECTION -->
+    <tr>
+        <table id="tab4">
+            <tr colspan="3">
+                <th style="float: left; border-left: 0.3em solid crimson;font-size: 1.5em;padding: 0.5em 0em 0.5em 0.5em;">
+                    News
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="t2p1.png" alt="news-pic" width="420em" height="240em">
+                </td>
+                <td style="padding: 0em 0.7em 0em 0.7em;">
+                    <img src="t2p2.png" alt="news-pic" width="420em" height="240em">
+                </td>
+                <td>
+                    <img src="t2p3.png" alt="news-pic" width="420em" height="240em">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b  style="font-size: 1.5em;">Nuclear plant chief held by Russia - Ukraine</b>
+                    <p>The boss of Europe's biggest nuclear plant was blindfolded and led away by Russian troops, Ukraine says.</p>
+                    <h5 style="border-left: 0.3em solid darkcyan; padding-left: 0.5em;">EUROPE</h5>
+                </td>
+                <td style="padding: 0em 0.7em;">
+                    <b style="font-size: 1.5em;">Messages reveal how Musk and Twitter boss fell out</b>
+                    <p>New text messages between Musk and Twitter boss Parag Agrawal reveal how the relationship broke down.</p>
+                    <h5 style="border-left: 0.3em solid darkorchid; padding-left: 0.5em;">TECHNOLOGY</h5>
+                </td>
+                <td>
+                    <b  style="font-size: 1.5em;">Jewish sect leaders arrested in jungle raid freed</b>
+                    <p>The release is the latest twist in events surrounding the group after a dramatic breakout in Mexico.</p>
+                    <h5 style="border-left: 0.3em solid deepskyblue; padding-left: 0.5em;">LATIN AMERICA</h5>
+                </td>
+            </tr>
+        </table>
+    </tr>
+
+    <!-- SPORTS SECTION -->
+    <tr>
+        <table id="tab5">
+            <tr colspan="3">
+                <th style="float: left; border-left: 0.3em solid gold;font-size: 1.5em;padding: 0.5em 0em 0.5em 0.5em;">
+                    Sports
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="t3p1.png" alt="sports-pic" width="420em" height="240em">
+                </td>
+                <td style="padding: 0em 0.7em 0em 0.7em;">
+                    <img src="t3p2.png" alt="sports-pic" width="420em" height="240em">
+                </td>
+                <td>
+                    <img src="t3p3.png" alt="sports-pic" width="420em" height="240em">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b  style="font-size: 1.5em;">Trossard hat-trick denies Liverpool win</b>
+                    <p>Leandro Trossard scores a hat-trick as Brighton mark new coach Roberto de Zerbi's debut with a hugely entertaining draw against Liverpool at Anfield.</p>
+                    <h5 style="border-left: 0.3em solid hotpink; padding-left: 0.5em;">FOOTBALL</h5>
+                </td>
+                <td style="padding: 0em 0.7em;">
+                    <b style="font-size: 1.5em;">Leclerc on Singapore pole after Verstappen fuel issue</b>
+                    <p>Ferrari's Charles Leclerc takes pole position after a gripping qualifying at the Singapore Grand Prix as Max Verstappen finishes only eighth.</p>
+                    <h5 style="border-left: 0.3em solid lawngreen; padding-left: 0.5em;">FORMULA 1</h5>
+                </td>
+                <td>
+                    <b  style="font-size: 1.5em;">Saracens 51-18 Leicester Tigers - Sarries dominate</b>
+                    <p>Saracens kept up their winning start in the Premiership with a crushing victory over defending champions Leicester. In a repeat of June's Premiership final, Sarries blew away Tigers.</p>
+                    <h5 style="border-left: 0.3em solid lightseagreen; padding-left: 0.5em;">RUGBY UNION</h5>
+                </td>
+            </tr>
+        </table>
+    </tr>
+
+    <!-- FEATURES & EVENTS SECTION -->
+    <tr>
+        <table id="tab6">
+            <tr colspan="3">
+                <th style="float: left; border-left: 0.3em solid mediumvioletred;font-size: 1.5em;padding: 0.5em 0em 0.5em 0.5em;">
+                    Features and Events
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="t4p1.png" alt="events-pic" width="420em" height="240em">
+                </td>
+                <td style="padding: 0em 0.7em 0em 0.7em;">
+                    <img src="t4p2.png" alt="events-pic" width="420em" height="240em">
+                </td>
+                <td>
+                    <img src="t4p3.png" alt="events-pic" width="420em" height="240em">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b style="font-size: 1.5em;">The phenomenon of eye colour change</b>
+                    <p>The colour of our iris can change throughout our lives, study reveals.</p>
+                    <h5 style="border-left: 0.3em solid lightskyblue; padding-left: 0.5em;">FUTURE</h5>
+                </td>
+                <td style="padding: 0em 0.7em;">
+                    <b style="font-size: 1.5em;">The US push to make salaries public</b>
+                    <p>Can the US blaze a path towards fairer wages for the rest of the world? More US states and cities are forcing companies to disclose wage data, to improve equity.</p>
+                    <h5 style="border-left: 0.3em solid maroon; padding-left: 0.5em;">WORKLIFE</h5>
+                </td>
+                <td>
+                    <b  style="font-size: 1.5em;">11 of the best films to watch this October</b>
+                    <p>A biopic of Emily Brontë and a romcom starring George Clooney and Julia Roberts</p>
+                    <h5 style="border-left: 0.3em solid mediumslateblue; padding-left: 0.5em;">CULTURE</h5>
+                </td>
+            </tr>
+        </table>
+    </tr>
+
+    <!-- ASIA NEWS SECTION -->
+    <tr>
+        <table id="tab8">
+            <tr colspan="3">
+                <th style="float: left; border-left: 0.3em solid red;font-size: 1.5em;padding: 0.5em 0em 0.5em 0.5em;">
+                    Asia News
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="t7p1.png" alt="asia-news-pic" width="330em" height="180em">
+                </td>
+                <td>
+                    <img src="t7p2.png" alt="asia-news-pic" width="330em" height="180em">
+                </td>
+                <td>
+                    <img src="t7p3.png" alt="asia-news-pic" width="330em" height="180em">
+                </td>
+                <td>
+                    <img src="t7p4.png" alt="asia-news-pic" width="330em" height="180em">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b style="font-size: 1.5em;">Kabul blast kills teenagers sitting practice exam</b>
+                    <p>The suspected suicide bombing in the Afghan capital targeted students at a tuition centre in the Afghan capital.</p>
+                    <h5 style="border-left: 0.3em solid lightcoral; padding-left: 0.5em;">TERRORISM</h5>
+                </td>
+                <td style="padding: 0em 0.7em;">
+                    <b style="font-size: 1.5em;">Thai court rules coup leader can remain PM</b>
+                    <p>A challenge to Prayuth Chan-ocha's term limits is rejected but he fails to secure his preferred outcome.</p>
+                    <h5 style="border-left: 0.3em solid navy; padding-left: 0.5em;">ASIA</h5>
+                </td>
+                <td>
+                    <b  style="font-size: 1.5em;">India to host first MotoGP grand prix for first time in 2023</b>
+                    <p>India will host a MotoGP race for the first time in the competition's history in 2023.</p>
+                    <h5 style="border-left: 0.3em solid olivedrab; padding-left: 0.5em;">MOTORSPORT</h5>
+                </td>
+                <td>
+                    <b  style="font-size: 1.5em;">US makes pledge in bid to counter China</b>
+                    <p>The White House announces aid and signs an agreement with Pacific nations at a summit in Washington.</p>
+                    <h5 style="border-left: 0.3em solid purple; padding-left: 0.5em;">ASIA</h5>
+                </td>
+            </tr>
+        </table>
+    </tr>
+
+    <!-- REELS SECTION -->
+    <tr>
+        <table id="tab9">
+            <tr colspan="3">
+                <td>
+                    <h1>REELS</h1>
+                    <p>The most amazing videos from BBC</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="t6p1.png" alt="reels-pic" width="420em" height="330em">
+                </td>
+                <td style="padding: 0em 0.7em 0em 0.7em;">
+                    <img src="t6p2.png" alt="reels-pic" width="420em" height="330em">
+                </td>
+                <td>
+                    <img src="t6p3.png" alt="reels-pic" width="420em" height="330em">
+                </td>
+            </tr>
+            <tr colspan="3">
+                <td style="color: burlywood;font-size: 1.5em;">
+                    <button id="reel-btn"><b>Visit Reels ➤</b></button>
+                </td>
+            </tr>
+        </table>
+    </tr>
+
+    <!-- EDITOR'S PICKS SECTION -->
+    <tr>
+        <table id="tab10">
+            <tr>
+                <th style="float: left; border-left: 0.3em solid yellowgreen;font-size: 1.5em;padding: 0.5em 0em 0.5em 0.5em;">
+                    Editor's Picks
+                </th>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <img src="t8p1.png" alt="edpicks-pic" width="935em" height="535em">
+                </td>
+                <td>
+                    <img src="t8news.png" alt="edpicks-pic" width="370em" height="540em">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="t8p2.png" alt="edpicks-pic" width="310em" height="170em">
+                </td>
+                <td>
+                    <img src="t8p3.png" alt="edpicks-pic" width="310em" height="170em">
+                </td>
+                <td>
+                    <img src="t8p4.png" alt="edpicks-pic" width="310em" height="170em">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b style="font-size: 1.5em;">The superbugs that target babies</b>
+                    <p>Over-use of antibiotics has created a deadly, largely hidden health crisis.</p>
+                    <h5 style="border-left: 0.3em solid royalblue; padding-left: 0.5em;">FUTURE</h5>
+                </td>
+                <td style="padding: 0em 0.7em;">
+                    <b style="font-size: 1.5em;">The food America erased</b>
+                    <p>"It's a monumental deal when a decolonised menu is on the table". Sean Sherman and Dana Thompson use food as a guidepost.</p>
+                    <h5 style="border-left: 0.3em solid slateblue; padding-left: 0.5em;">TRAVEL</h5>
+                </td>
+                <td>
+                    <b  style="font-size: 1.5em;">Why a 1922 horror film still terrifies</b>
+                    <p>The chilling power of controversial documentary-horror Haxan, 100 years on</p>
+                    <h5 style="border-left: 0.3em solid teal; padding-left: 0.5em;">CULTURE</h5>
+                </td>
+            </tr>
+        </table>
+    </tr>
+    
+    <!-- FUTURE PLANET SECTION -->
+    <tr>
+        <table id="tab11">
+            <tr colspan="3">
+                <td>
+                    <h1>FUTURE PLANET</h1>
+                    <p>Solutions for a sustainable world</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="t9p1.png" alt="future-pic" width="420em" height="300em">
+                </td>
+                <td>
+                    <img src="t9p2.png" alt="future-pic" width="420em" height="300em">
+                </td>
+                <td>
+                    <img src="t9p3.png" alt="future-pic" width="420em" height="300em">
+                </td>
+            </tr>
+            <tr colspan="3">
+                <td style="color: burlywood;font-size: 1.5em;">
+                    <button id="ftr-btn"><b>Visit Future ➤</b></button>
+                </td>
+            </tr>
+        </table>
+    </tr>
+
+    <!-- VIDEOS SECTION -->
+    <tr>
+        <table id="tab12">
+            <tr>
+                <th style="float: left; border-left: 0.3em solid cyan;font-size: 1.5em;padding: 0.5em 0em 0.5em 0.5em;">
+                    Featured Video
+                </th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <iframe width="800em" height="300em" src="https://www.youtube.com/embed/UXHoWNfjJYM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </td>
+            </tr>
+            <tr style="background-color: black; text-align: left;">
+                <th style="padding: 2em" colspan="3">
+                    <a href="#Recommended">Recommended</a>
+                    <span>&ensp;&ensp;</span>
+                    <a href="#Latest">
+                        Latest
+                    </a>
+                </th>
+            </tr>
+            <tr>
+                <td style="text-align: center;">
+                    <iframe width="390" height="250" src="https://www.youtube.com/embed/D5J7kAGyhbc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>
+                        <h3>Redcar Steelworks building is demolished</h3>
+                    </p>
+                </td>
+                <td style="text-align: center;">
+                    <iframe width="390" height="250" src="https://www.youtube.com/embed/QNP7CeVc3c4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>
+                        <h3>How I helped bring down dope cheat Lance</h3>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h5 style="border-left: 0.3em solid brown; padding-left: 0.5em; margin-left: 1em;">UK</h5>
+                </td>
+                <td>
+                    <h5 style="border-left: 0.3em solid gold; padding-left: 0.5em;margin-left: 1em;">STORIES</h5>
+                </td>
+            </tr>
+        </table>
+    </tr>
+
+    <!-- FOOTER SECTION -->
+    <tr>
+        <table id="tab14">
+            <tr>
+                <td colspan="6">
+                    <h3 style="color: black;"><b>EXPLORE THE BBC</b></h3>
+                </td>
+            </tr>
+            <tr style="color: wheat;">
+                <td style="border-left: 0.15em solid black;border-right:0.15em solid black;">
+                    <p><a href="#Home">Home</a></p>
+                    <p><a href="#Future">Future</a></p>
+                </td>
+                <td style="border-right:0.15em solid black;">
+                    <p><a href="#News">News</a></p>
+                    <p><a href="#Culture">Culture</a></p>
+                </td>
+                <td style="border-right:0.15em solid black;">
+                    <p><a href="#Sports">Sports</a></p>
+                    <p><a href="#TV">TV</a></p>
+                </td>
+                <td style="border-right:0.15em solid black;">
+                    <p><a href="#Reel">Reel</a></p>
+                    <p><a href="#Weather">Weather</a></p>
+                </td>
+                <td style="border-right:0.15em solid black;">
+                    <p><a href="#Worklife">Worklife</a></p>
+                    <p><a href="#Sounds">Sounds</a></p>
+                </td>
+                <td style="border-right:0.15em solid black;">
+                    <p><a href="#Travel">Travel</a></p>
+                    <p><a href="#Events">Events</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <hr color="black">
+                </td>
+            </tr>
+            <tr style="color: wheat;font-size: 1.4em;">
+                <td>
+                    <a href="#tou">Terms of Use</a> 
+                </td>
+                <td>
+                    <a href="#pp">Privacy Policy</a>
+                </td>
+                <td>
+                    <a href="#about">About the BBC</a> 
+                </td>
+                <td>
+                    <a href="#pg">Parental Guidance</a> 
+                </td>
+                <td>
+                    <a href="#ah">Accessibility Help</a> 
+                </td>
+                <td>
+                    <a href="#cu">Contact Us</a> 
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <hr color="black" size="3em">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6" style="font-size:0.8em;padding-left:7.5em;">
+                    <b>Copyright © 2022 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.</b>
+                </td>
+            </tr>
+        </table>
+    </tr>
+</table>
+</body>
+</html>
