@@ -1,2 +1,2 @@
 # Table-based-Frontend
-Designing a webpage using CSS tables only (no divs)
+Frontend development project aimed at using tables and internal CSS to design the layout of a webpage. No divs used.
